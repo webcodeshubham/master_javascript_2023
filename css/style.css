@@ -8,6 +8,7 @@
 
 body {
   width: 100%;
+  font-family: var(--secondaryFont);
 }
 
 /* Color Variables */
@@ -62,8 +63,8 @@ a {
 }
 
 button:hover {
-    background-color: var(--primaryColor);
-    color: var(--secondaryColor);
+  background-color: var(--primaryColor);
+  color: var(--secondaryColor);
 }
 
 /* Container Stylings Begins */
@@ -71,10 +72,10 @@ button:hover {
 .container {
   background-color: var(--darkColor);
   border-radius: 10px;
-  height: 50%;
+  height: 500px;
   margin: auto;
-  padding: 20px;
-  width: 30%;
+  margin-top: 50px;
+  width: 60%;
 }
 
 /* Container Stylings Ends */

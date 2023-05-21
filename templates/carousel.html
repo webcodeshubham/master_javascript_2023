@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="../assets/icons/javaScriptLogo.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/carousel.css" />
+    <title>Carousel App | Master JavaScript (ES6)</title>
+  </head>
+  <body
+    style="
+      background-color: black;
+      color: white;
+      height: 100%;
+      text-align: center;
+      width: 100%;
+    "
+  >
+    <h1>Jai Shree Ram!</h1>
+    <h1 style="background-color: white; color: black; margin: 10px 0">
+      Carousel App
+    </h1>
+    <div class="container">
+      <img
+        src="https://picsum.photos/id/225/1000/600"
+        alt="slide"
+        class="slide"
+      />
+      <img
+        src="https://picsum.photos/id/216/1000/500"
+        alt="slide"
+        class="slide"
+      />
+      <img
+        src="https://picsum.photos/id/289/1000/500"
+        alt="slide"
+        class="slide"
+      />
+      <img
+        src="https://picsum.photos/id/229/1000/500"
+        alt="slide"
+        class="slide"
+      />
+      <img
+        src="https://picsum.photos/id/243/1000/500"
+        alt="slide"
+        class="slide"
+      />
+      <img
+        src="https://picsum.photos/id/440/1000/500"
+        alt="slide"
+        class="slide"
+      />
+    </div>
+    <div class="btns">
+      <button onclick="prev()" id="prevBtn">Prev</button>
+      <button onclick="next()" id="nextBtn">Next</button>
+    </div>
+    <script src="../js/carousel.js"></script>
+  </body>
+</html>

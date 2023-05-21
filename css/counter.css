@@ -1,14 +1,23 @@
 /* Counter App Stylings */
 
+.container {
+  background-color: white;
+  height: 300px;
+  padding: 10px 0;
+  width: 40%;
+}
+
 #count {
-  color: white;
+  color: black;
   font-size: 100px;
   margin: 25px 0;
 }
 
 .btns button {
+  background-color: black;
   border-radius: 5px;
   border: none;
+  color: white;
   cursor: pointer;
   font-size: 16px;
   font-weight: 600;
@@ -17,3 +26,7 @@
   padding: 10px 20px;
 }
 
+.btns button:hover {
+  background-color: #21cec3;
+  color: #0d00d0d0;
+}
