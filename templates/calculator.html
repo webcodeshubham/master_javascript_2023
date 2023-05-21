@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="../assets/icons/javaScriptLogo.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../css/calculator.css" />
+    <title>Calculator App | Master JavaScript (ES6)</title>
+  </head>
+  <body
+    style="
+      background: linear-gradient(45deg, rgb(12, 12, 12), rgb(3, 0, 14));
+      color: white;
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    "
+  >
+    <h1>Jai Shree Ram!</h1>
+    <h1 style="background-color: white; color: black; margin: 10px 0">
+      Calculator App
+    </h1>
+
+    <div class="calculator">
+      <input type="text" id="inputBar" placeholder="0" onchange="inputBorder()" value=""/>
+      <div class="btnRow">
+        <button class="operator">AC</button>
+        <button class="operator">DEL</button>
+        <button class="operator">%</button>
+        <button class="operator">/</button>
+      </div>
+      <div class="btnRow">
+        <button>9</button>
+        <button>8</button>
+        <button>7</button>
+        <button class="operator">*</button>
+      </div>
+      <div class="btnRow">
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button class="operator">-</button>
+      </div>
+      <div class="btnRow">
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button class="operator">+</button>
+      </div>
+      <div class="btnRow">
+        <button>00</button>
+        <button>0</button>
+        <button>.</button>
+        <button id="equalbtn">=</button>
+      </div>
+    </div>
+    <script src="../js/calculator.js"></script>
+  </body>
+</html>

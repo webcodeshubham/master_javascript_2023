@@ -1,0 +1,141 @@
+/* Import Google Fonts */
+
+@font-face {
+  font-family: "RobotoRegular";
+  src: url(../assets/fonts/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: "RobotoItalic";
+  src: url(../assets/fonts/Roboto-Italic.ttf);
+}
+@font-face {
+  font-family: "RobotoMedium";
+  src: url(../assets/fonts/Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: "RobotoBold";
+  src: url(../assets/fonts/Roboto-Bold.ttf);
+}
+
+/* Default Stylings */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: var(--secondaryFont);
+}
+
+body {
+  width: 100%;
+  font-family: var(--secondaryFont);
+}
+
+/* Color Variables */
+
+:root {
+  --primaryColor: #21cec3;
+  --secondaryColor: #0d00d0d0;
+  --tertiaryColor: #d1d;
+  --pureColor: #ccc;
+  --darkColor: #000000;
+}
+
+/* Font Variables */
+
+:root {
+  --primaryFont: "RobotoRegular";
+  --secondaryFont: "RobotoItalic";
+  --tertiaryFont: "RobotoMedium";
+  --headFont: "RobotoBold";
+  --footFont: "verdana", sans-serif;
+}
+
+/* Global Utility Classes */
+
+.flex {
+  display: flex;
+}
+
+.justCen {
+  justify-content: center;
+}
+
+.justBtwn {
+  justify-content: space-between;
+}
+
+.jsutAro {
+  justify-content: space-around;
+}
+
+.justEven {
+  justify-content: space-evenly;
+}
+
+.alignCen {
+  align-items: center;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: var(--primaryColor);
+  color: var(--secondaryColor);
+}
+
+/* Calculator Stylings */
+
+.calculator {
+  background-color: transparent;
+  border-radius: 10px;
+  box-shadow: 0 3px 15px rgba(0, 255, 255, 0.6);
+  color: #ffffff;
+  padding: 20px;
+  margin: 50px;
+}
+
+input {
+  background-color: transparent;
+  /* border: 1px solid var(--pureColor); */
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 3px 15px rgba(0, 255, 255, 0.6);
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 30px;
+  margin: 5px;
+  padding: 20px;
+  text-align: right;
+  width: 320px;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  box-shadow: -8px -8px 15px rgba(0, 255, 255, 0.1);
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  height: 60px;
+  margin: 10px;
+  outline: none;
+  width: 60px;
+}
+
+button::placeholder {
+  color: var(--pureColor);
+}
+
+#equalbtn {
+  background-color: orange;
+}
+
+.operator {
+  color: green;
+}
