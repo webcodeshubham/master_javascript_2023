@@ -1,0 +1,19 @@
+/* Counter App Stylings */
+
+#count {
+  color: white;
+  font-size: 100px;
+  margin: 25px 0;
+}
+
+.btns button {
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  margin-right: 10px;
+  outline: none;
+  padding: 10px 20px;
+}
+
