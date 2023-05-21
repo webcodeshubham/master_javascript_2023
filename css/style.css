@@ -1,0 +1,95 @@
+/* Default Stylings */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+}
+
+/* Color Variables */
+
+:root {
+  --primaryColor: #000000;
+  --secondaryColor: #0d00d0d0;
+  --tertiaryColor: #d1d;
+  --pureColor: #ccc;
+  --darkColor: #0ccccc;
+}
+
+/* Font Variables */
+
+:root {
+  --primaryFont: "Courier New", Courier, monospace;
+  --secondaryFont: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  --tertiaryFont: "calibiri", sans-serif;
+  --headFont: "treemeta", sans-serif;
+  --footFont: "verdana", sans-serif;
+}
+
+/* Global Utility Classes */
+
+.flex {
+  display: flex;
+}
+
+.justCen {
+  justify-content: center;
+}
+
+.justBtwn {
+  justify-content: space-between;
+}
+
+.jsutAro {
+  justify-content: space-around;
+}
+
+.justEven {
+  justify-content: space-evenly;
+}
+
+.alignCen {
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Container Stylings Begins */
+
+
+/* Container Stylings Ends */
+
+/* Header Stylings Begins */
+
+
+
+/* Header Stylings Ends */
+
+/* Hero Section Stylings Begins */
+
+
+
+/* Hero Section Stylings Ends */
+
+/* Main Stylings Begins */
+
+
+
+/* Main Stylings Ends */
+
+/* Card Stylings Begins */
+
+
+/* Card Stylings Ends */
+
+/* Footer Stylings Begins */
+
+
+/* Footer Stylings Ends */
